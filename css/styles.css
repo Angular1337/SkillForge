@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+header {
+    right: 3.7505%;
+    width: 90%;
+    height: auto;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    padding-left: 2.5%;
+    margin-top: 2%;
+    border-radius: 2.5rem;
+    background: rgb(0, 48, 96);
+    background: -moz-linear-gradient(90deg, rgba(0, 48, 96, 0.5) 0%, rgba(69, 176, 255, 0.5) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 48, 96, 0.5) 0%, rgba(69, 176, 255, 0.5) 100%);
+    background: linear-gradient(90deg, rgba(0, 48, 96, 0.5) 0%, rgba(69, 176, 255, 0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#003060", endColorstr="#45b0ff", GradientType=1);
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+}
+
+.logo__header {
+    width: 4%;
+    height: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: left;
+}
+
+.name__header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    width: 8%;
+    height: auto;
+    text-align: center;
+    margin-left: 2%;
+    color: rgb(200, 225, 255);
+}
+
+.navigation__header {
+    margin-left: 42.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(200, 225, 255);
+}
+
+.navigation__header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation__header ul li {
+    margin-left: 5%;
+}
+
+.navigation__header ul li a {
+    text-decoration: none;
+}
+
+.button__header {
+    background-color: rgb(0, 75, 135);
+    border-radius: 1.5rem;
+    padding: 3%;
+    transition: all 0.5s ease-in-out;
+}
+
+.button__header:hover {
+    background-color: rgba(0, 125, 175, 1);
+}
+
+.faq__main {
+    margin-top: 15%;
+    position: relative;
+    background-color: rgba(0, 85, 160, 0.5);
+    width: 100%;
+    height: 25%;
+}
+
+.title__main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    color: rgb(200, 225, 255);
+}
+
+.content__main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kids__main {
+    width: 30%;
+    height: auto;
+}
+
+.text__main {
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(200, 225, 255);
+    padding-top: 5%;
+}
+
+.courses__main {
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    border-radius: 1.5rem;
+    background-color: rgba(0, 105, 155, 0.75);
+    border: none;
+}
+
+.courses__main:hover {
+    background-color: rgba(0, 125, 175, 1);
+}
+
+.teachers__main {
+    margin-top: 60%;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    background-color: rgba(0, 85, 160, 0.5);
+}
+
+.why__main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    color: rgb(200, 225, 255);
+}
+
+.masters__main {
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(200, 225, 255);
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    padding-top: 2.5%;
+}
+
+.teacher__main {
+    position: absolute;
+    width: 25%;
+    height: auto;
+    right: 10%;
+    top: 20%;
+}
+
+.list__main {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    border-radius: 1.5rem;
+    background-color: rgba(0, 105, 155, 0.75);
+    border: none;
+    margin-left: 17.5%;
+    margin-top: 29%;
+}
+
+.list__main:hover {
+    background-color: rgba(0, 125, 175, 1);
+}
+
+.registration__main {
+    margin-top: 110%;
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    background-color: rgba(0, 85, 160, 0.5);
+}
+
+.request__main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    border-radius: 1.5rem;
+    background-color: rgba(0, 105, 155, 0.75);
+    border: none;
+    margin-top: 1%;
+}
+
+.request__main:hover {
+    background-color: rgba(0, 125, 175, 1);
+}
+
+.reg__main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    list-style: none;
+    color: #ffffff;
+}
+
+.send__main {
+    width: 40%;
+    height: auto;
+    padding: 1%;
+    margin: 0.5%;
+    border-radius: 1rem;
+}
+
+.line__footer {
+    width: 100%;
+    height: 0.5%;
+    background-color: rgba(155, 155, 155, 0.75);
+    position: absolute;
+    margin-top: 135%;
+}
+
+.my__job {
+    display: flex;
+    position: absolute;
+    margin-top: 136%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8vw;
+    width: 100%;
+    color: rgb(200, 225, 255);
+}
+
+.right {
+    position: absolute;
+    margin-left: 95%;
+}
+
+.left {
+    position: absolute;
+    margin-left: 3%;
+}
+
+.air {
+    width: 100%;
+    position: absolute;
+    height: 1%;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 138.5%;
+}
