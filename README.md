@@ -10,4 +10,5 @@
 Экспириенс: отличный.
 
 Подробности в презентации.
-[FAQ.pptx](https://github.com/user-attachments/files/18278505/FAQ.pptx)
+[FAQ.pptx]
+(https://github.com/user-attachments/files/18278505/FAQ.pptx)
